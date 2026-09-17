@@ -41,13 +41,13 @@ export function Hero() {
             View My Work
             <ArrowDown className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
           </button>
-          <a
-            href="mailto:sagwadidenzel@gmail.com?subject=CV%20Request"
+          <Link
+            to="/cv"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-all hover:border-primary/50 hover:bg-accent sm:text-base"
           >
             <FileText className="h-4 w-4 text-primary" />
             Download CV
-          </a>
+          </Link>
         </div>
       </div>
     </section>
