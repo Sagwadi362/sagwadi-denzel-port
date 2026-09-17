@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { ArrowDown, FileText } from "lucide-react";
 
 export function Hero() {
